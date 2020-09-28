@@ -30,7 +30,7 @@ jobs:
     - name: Push the latest Docker image
       run: docker push stenionljunior/node:latest
 ```
-
+No seu repositório, clicar em Settings -> Secrets e configurar duas secrects com seu nome de usuário do DockerHub (DOCKERHUB_USERNAME) e outra com a senha (DOCKERHUB_PASSWORD). Essas secrets foram referenciadas no step "Login to DockerHub Registry"
 
 
 Com a imagem disponível no DockerHub, iremos orquestrar utilizando o Kubernetes executando os comandos abaixo no master do cluster K8S:

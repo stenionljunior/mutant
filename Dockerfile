@@ -1,4 +1,4 @@
-FROM node:latest
+FROM debian
 
 WORKDIR /usr/src/app
 

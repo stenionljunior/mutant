@@ -1,3 +1,0 @@
-[2020-09-27 23:00:41.546] [sharedprocess] [info] main {"machineId":"9cbf1fedd4b5c76bdfccadfc6e7f8a037be7730f89653bd3ae8f0da2f3d523fa","windowId":2}
-[2020-09-27 23:00:41.593] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stenio/Documentos/mutant/mutant/~/.vscode-root/User/snippets'
-[2020-09-27 23:01:21.567] [sharedprocess] [info] Starting to clean up unused language packs.

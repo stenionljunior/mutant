@@ -17,6 +17,6 @@ jobs:
     - name: Login to DockerHub Registry
       run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
     - name: Build the latest Docker image
-      run: docker build app/ --file Dockerfile --tag node:latest
+      run: docker build app/ --file Dockerfile --tag stenionljunior/node:latest
     - name: Push the latest Docker image
-      run: docker push node:latest
+      run: docker push stenionljunior/node:latest

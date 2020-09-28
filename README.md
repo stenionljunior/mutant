@@ -8,7 +8,7 @@ Dockerizar uma aplicação em node e gerar o build no DockerHub utilizando o Git
 
 # Configurar o CI
 
-- É preciso criar um arquivo .yml e adicionar no workflow (.github/workflows) do Git para realizar o Continuous Integration.
+- É preciso criar o arquivo docker-image.yml em .github/workflows para iniciar o CI do GitHub usando o GitHub Actions.
 
 ```
 name: Docker Image CI

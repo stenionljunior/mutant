@@ -68,5 +68,5 @@ echo "Accessing host01:$PORT"
 curl host01:$PORT
 ```
 
-Na pasta k8s temos os manifestos no formato yaml caso prefira executar de forma descritiva.
+Na pasta k8s temos os manifestos no formato yaml caso prefira executar de forma declarativa.
 
